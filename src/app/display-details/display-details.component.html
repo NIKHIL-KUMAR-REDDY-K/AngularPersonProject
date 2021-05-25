@@ -1,0 +1,44 @@
+<p>display-details works!</p>
+<!-- <p *ngFor="let i of PersonList">
+    {{i.Name}}
+</p> -->
+<div class="container-fluid">
+    
+
+<div class="col-9" style="align-items: center;">
+    
+
+<table class="table table-dark">
+    
+      <tr>
+        <th>ID</th>
+        <th >NAME</th>
+        <th >EMAIL</th>
+        <th scope="col">DOB</th>
+        <th scope="col">AVATAR</th>
+        <th scope="col">COUNTRY</th>
+        <th>image</th>
+        <th>OPERATIONS</th>
+        
+      </tr>
+
+    
+    
+        
+      <tr *ngFor="let i of PersonList">
+        <td>{{i.id}}</td>
+        <td><a class="nav-item nav-link" href="edit/{{i.id}}">{{i.Name}}</a></td>
+        <td>{{i.Email}}</td>
+        <td>{{i.DOB}}</td>
+        <td>{{i.Avatar}}</td>
+        <td>{{i.Country}}</td>
+        <td><img src="{{i.Profile}}" style="width: 250; height: 250;" ></td>
+        <td><i (click)="deletePerson(i.id)" class="fa fa-trash" style="font-size:20px;color:red;"></i></td>
+    
+      </tr>
+     
+
+
+</table>
+</div>
+</div>

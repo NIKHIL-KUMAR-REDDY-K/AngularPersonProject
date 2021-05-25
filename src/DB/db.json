@@ -1,0 +1,40 @@
+{
+  "Persons": [
+    {
+      "Name": "Amulya",
+      "Email": "Amulya@gmail",
+      "DOB": "2021-04-06",
+      "Avatar": "female",
+      "Country": "India",
+      "Profile": "/assets/images/img3.jpg",
+      "id": 4
+    },
+    {
+      "Name": "K NIKHIL ",
+      "Email": "kv.nikhilkumarreddy@gmail.com",
+      "DOB": "2021-04-12",
+      "Avatar": "male",
+      "Country": "India",
+      "Profile": "/assets/images/img2.jpg",
+      "id": 5
+    },
+    {
+      "Name": "K THARUN KUMAR",
+      "Email": "daya@123",
+      "DOB": "2021-04-01",
+      "Avatar": "male",
+      "Country": "Australia",
+      "Profile": "/assets/images/img2.jpg",
+      "id": 6
+    },
+    {
+      "Name": "priya",
+      "Email": "priya123",
+      "DOB": "2021-04-01",
+      "Avatar": "female",
+      "Country": "Australia",
+      "Profile": "/assets/images/img3.jpg",
+      "id": 8
+    }
+  ]
+}
